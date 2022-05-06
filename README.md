@@ -1,6 +1,7 @@
 # robogen-evolution
-The Robogen Project of EPFL 2022 "MICRO-515: Evolutionary Robotics".
-http://robogen.org/app/
+The Robogen Project of EPFL 2022 "MICRO-515: Evolutionary Robotics"
+- [Robogen App](http://robogen.org/app/)
+- [Arena generator](https://github.com/Arth-ur/robogen-arena-generator)
 
 ## Useful documentation
 - [Evolution configuration](http://robogen.org/docs/evolution-configuration/#Evolution_client_settings)
