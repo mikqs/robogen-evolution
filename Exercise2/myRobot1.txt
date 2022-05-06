@@ -1,0 +1,9 @@
+0 CoreComponent Core 0
+	0 ActiveHinge Hip1 1 
+		0 FixedBrick UpperLeg1 1
+			0 ActiveHinge Knee1 0 
+				0 FixedBrick LowerLeg1 0 
+	1 ActiveHinge Hip2 3 
+		0 FixedBrick UpperLeg2 1
+			0 ActiveHinge Knee2 0 
+				0 FixedBrick LowerLeg2 0 

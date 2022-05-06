@@ -1,0 +1,16 @@
+# confBasic.txt -- basic configuration file
+scenario= arena2-scenario-random.js
+lightSourcesConfigFile = lights.txt
+timeStep=0.005
+actuationFrequency=25
+simulationTime=8
+terrainType=flat
+terrainLength=5
+terrainWidth=5
+terrainFriction=1.0
+sensorNoiseLevel=0.0
+motorNoiseLevel=0.0
+gravity=0,0,-9.8
+capAcceleration=false
+# uncomment the following to prevent 'jittery behaviors'
+#maxDirectionShiftsPerSecond=16

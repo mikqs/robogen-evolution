@@ -1,0 +1,22 @@
+referenceRobotFile=robot.txt
+
+simulatorConfFile=simConf.txt
+evolutionMode = brain
+numGenerations = 50
+mu = 40
+lambda = 40
+replacement = plus
+selection = deterministic-tournament
+tournamentSize = 2
+
+#Commonly used brain parameters
+pBrainMutate = .3
+pBrainCrossover = 0.6
+pOscillatorNeuron = 0
+brainBounds=-3:3
+brainSigma=.7
+
+#Server Location
+socket=127.0.0.1:49152
+
+evolutionaryAlgorithm=Basic
