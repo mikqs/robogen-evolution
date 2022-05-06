@@ -1,16 +1,24 @@
 simulatorConfFile=myConf.txt
+
+evolutionMode=full
+numGenerations=100
 mu=20
 lambda=20
 selection=deterministic-tournament
 replacement=plus
 tournamentSize=2
-numGenerations=100
-evolutionMode=full
+
+#Commonly used brain parameters
 pBrainMutate=.3
 brainSigma=.7
 brainBounds=-3:3
+
+#Commonly used body variation parameters
 numInitialParts=2:10
 addBodyPart=All
+
+
+#Other parameters
 pNodeInsert=0.1
 pSubtreeRemove=0.1
 pSubtreeDuplicate=0.1

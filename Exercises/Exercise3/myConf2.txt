@@ -1,12 +1,18 @@
-# confBasic.txt -- basic configuration file
+#Fitness Function
 scenario=racing
+
+#Time Parameters
 timeStep=0.005
 actuationFrequency=25
 simulationTime=8
+
+#Terrain Parameters
 terrainType=flat
 terrainLength=5
 terrainWidth=5
 terrainFriction=1.0
+
+#Other Parameters
 sensorNoiseLevel=0.0
 motorNoiseLevel=0.0
 gravity=0,0,-9.8

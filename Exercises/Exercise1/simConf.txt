@@ -1,10 +1,10 @@
 #Fitness Function
 scenario=obstacleAvoidance.js
 
-#Time Parameters 
-simulationTime=15.0
+#Time Parameters
 timeStep=0.04
 actuationFrequency=25
+simulationTime=15.0
 
 #Terrain Parameters
 terrainType=flat
