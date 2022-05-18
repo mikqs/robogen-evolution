@@ -1,0 +1,25 @@
+#Fitness Function
+scenario=fitness-no-stab.js
+
+#Time Parameters 
+timeStep=0.01
+actuationFrequency=25
+nTimeSteps=3000
+
+#Terrain Parameters
+terrainType=flat
+terrainLength=10
+terrainWidth=10
+terrainFriction=1.0
+
+#Other Parameters
+sensorNoiseLevel=0.04
+motorNoiseLevel=0.04
+gravity=0,0,-9.8
+capAcceleration=true
+# uncomment the following to prevent 'jittery behaviors'
+maxDirectionShiftsPerSecond=16
+
+#Obstacle Config
+obstaclesConfigFile= Phase1_Arena.txt
+startPositionConfigFile=start_pos.txt

@@ -1,0 +1,46 @@
+simulatorConfFile=simconf.txt
+#referenceRobotFile = best_adjust_fitness.txt
+
+evolutionMode=full
+numGenerations=150
+mu=25
+lambda=40
+selection=deterministic-tournament
+replacement=plus
+tournamentSize=2
+
+#Commonly used brain parameters
+pBrainMutate=.7
+brainSigma=.7
+brainBounds=-3:3
+pAddHiddenNeuron=0.6
+pOscillatorNeuron = 0.7
+
+#Commonly used body variation parameters
+numInitialParts=4:10
+addBodyPart = CoreComponent
+addBodyPart = ParametricJoint
+addBodyPart = ActiveHinge
+addBodyPart = IrSensor
+addBodyPart = FixedBrick
+addBodyPart = PassiveHinge
+maxBodyParts = 15
+
+
+#BodyParams
+bodyParamSigma = 0.7
+
+#Start from pre-existing seed
+#useBrainSeed=True
+
+#Other parameters
+pNodeInsert=0.7
+pSubtreeRemove=0.3
+pSubtreeDuplicate=0.3
+pSubtreeSwap=0.3
+pNodeRemove=0.3
+pParameterModify=0.3
+
+socket=127.0.0.1:8001
+#socket=127.0.0.1:8002
+#socket=127.0.0.1:8003
