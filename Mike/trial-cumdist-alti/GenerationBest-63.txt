@@ -1,0 +1,77 @@
+0 CoreComponent CoreComponent 0
+	1 IrSensor myid1017 0
+	2 FixedBrick myid1001 3
+		1 ActiveHinge myid1005 2
+			1 ParametricJoint myid1016 3 0.09330831 87.20333099 0.0
+	3 ActiveHinge myid1010 3
+		1 FixedBrick myid1007 3
+			1 FixedBrick myid1008 1
+				1 FixedBrick myid1003 1
+					1 FixedBrick myid1002 3
+						1 FixedBrick myid1020 0
+						3 FixedBrick myid1011 1
+							1 FixedBrick myid1012 3
+							2 ParametricJoint myid1019 2 0.04978687 10.20628166 0.0
+								1 ParametricJoint myid1014 3 0.09330831 87.20333099 0.0
+
+CoreComponent sigmoid
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent oscillator
+
+CoreComponent 0 CoreComponent 6 1.3844341039657593
+CoreComponent 0 CoreComponent 7 -0.3414725959300995
+CoreComponent 0 CoreComponent 9 -1.1729816198349
+CoreComponent 1 CoreComponent 6 -0.49356934428215027
+CoreComponent 1 CoreComponent 7 0.11370203644037247
+CoreComponent 1 CoreComponent 9 -0.7651171088218689
+CoreComponent 10 CoreComponent 6 0.22419773042201996
+CoreComponent 10 CoreComponent 7 -1.0524318218231201
+CoreComponent 10 CoreComponent 9 0.8387468457221985
+CoreComponent 11 CoreComponent 6 0.3565320074558258
+CoreComponent 11 CoreComponent 7 0.056627724319696426
+CoreComponent 11 CoreComponent 9 0.0
+CoreComponent 2 CoreComponent 6 0.09379636496305466
+CoreComponent 2 CoreComponent 7 1.3877732753753662
+CoreComponent 2 CoreComponent 9 -0.26973116397857666
+CoreComponent 3 CoreComponent 6 -1.4564088582992554
+CoreComponent 3 CoreComponent 7 -2.201967716217041
+CoreComponent 3 CoreComponent 9 0.026643667370080948
+CoreComponent 4 CoreComponent 6 2.653499126434326
+CoreComponent 4 CoreComponent 7 -0.3414289653301239
+CoreComponent 4 CoreComponent 9 0.21223998069763184
+CoreComponent 5 CoreComponent 6 0.05041453614830971
+CoreComponent 5 CoreComponent 7 0.27904266119003296
+CoreComponent 5 CoreComponent 9 0.5120836496353149
+CoreComponent 6 CoreComponent 6 -1.783490538597107
+CoreComponent 6 CoreComponent 7 -0.21660448610782623
+CoreComponent 6 CoreComponent 9 -0.5733512043952942
+CoreComponent 7 CoreComponent 6 -0.06522277742624283
+CoreComponent 7 CoreComponent 7 -1.245851993560791
+CoreComponent 7 CoreComponent 9 0.1944093257188797
+CoreComponent 8 CoreComponent 6 -1.2838588953018188
+CoreComponent 8 CoreComponent 7 -0.32009249925613403
+CoreComponent 8 CoreComponent 9 1.4801536798477173
+CoreComponent 9 CoreComponent 6 1.1542900800704956
+CoreComponent 9 CoreComponent 7 -1.3661208152770996
+CoreComponent 9 CoreComponent 9 -0.5956457853317261
+myid1005 0 CoreComponent 6 -1.9929780960083008
+myid1005 0 CoreComponent 7 0.6875033974647522
+myid1005 0 CoreComponent 9 -1.4071849584579468
+myid1010 0 CoreComponent 6 0.7284309267997742
+myid1010 0 CoreComponent 7 0.929241418838501
+myid1010 0 CoreComponent 9 0.9431132078170776
+myid1017 0 CoreComponent 6 -0.9000294208526611
+myid1017 0 CoreComponent 7 -0.26787638664245605
+myid1017 0 CoreComponent 9 0.33813339471817017
+
+CoreComponent 6 -1.6585606336593628
+CoreComponent 7 1.2936794757843018
+CoreComponent 8 oscillator 0.1371341496706009 0.4475105106830597 0.8482059836387634
+CoreComponent 9 1.5807713270187378
+CoreComponent 10 oscillator 0.0 -1.0 0.7292684316635132
+CoreComponent 11 oscillator 0.0 0.23265177011489868 0.8077292442321777
+myid1005 0 oscillator 0.0 -1.0 0.4675731062889099
+myid1010 0 oscillator 0.6642943620681763 0.928439199924469 1.0
