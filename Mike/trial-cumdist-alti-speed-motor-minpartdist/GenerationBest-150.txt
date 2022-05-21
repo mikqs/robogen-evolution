@@ -1,18 +1,18 @@
 0 CoreComponent CoreComponent 1
 	0 ActiveHinge myid1000 1
-		1 ParametricJoint myid1017 3 0.09985518 -25.19931602 0.0
-			1 ParametricJoint myid1002 3 0.05102622 -66.65634918 0.0
-				1 FixedBrick myid1004 1
-					1 IrSensor myid1011 3
-					2 FixedBrick myid1008 1
-						2 FixedBrick myid1009 3
-							3 FixedBrick myid1020 3
-					3 ParametricJoint myid1006 3 0.08038892 87.64970398 0.0
-						1 FixedBrick myid1012 2
-	1 ParametricJoint myid1001 1 0.0542895 -24.97055244 0.0
-		1 ActiveHinge myid1003 3
-			1 ParametricJoint myid1018 1 0.05230491 -1.03055239 0.0
-				1 FixedBrick myid1016 3
+		0 ParametricJoint myid1017 3 0.09985518 -25.19931602 0.00000000
+			0 ParametricJoint myid1002 3 0.05102622 -66.65634918 0.00000000
+				0 FixedBrick myid1004 1
+					0 IrSensor myid1011 3
+					1 FixedBrick myid1008 1
+						1 FixedBrick myid1009 3
+							2 FixedBrick myid1020 3
+					2 ParametricJoint myid1006 3 0.08038892 87.64970398 0.00000000
+						0 FixedBrick myid1012 2
+	1 ParametricJoint myid1001 1 0.05428950 -24.97055244 0.00000000
+		0 ActiveHinge myid1003 3
+			0 ParametricJoint myid1018 1 0.05230491 -1.03055239 0.00000000
+				0 FixedBrick myid1016 3
 
 CoreComponent oscillator
 CoreComponent oscillator

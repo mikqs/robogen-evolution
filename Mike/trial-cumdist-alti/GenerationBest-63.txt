@@ -1,18 +1,18 @@
 0 CoreComponent CoreComponent 0
 	1 IrSensor myid1017 0
 	2 FixedBrick myid1001 3
-		1 ActiveHinge myid1005 2
-			1 ParametricJoint myid1016 3 0.09330831 87.20333099 0.0
+		0 ActiveHinge myid1005 2
+			0 ParametricJoint myid1016 3 0.09330831 87.20333099 0.00000000
 	3 ActiveHinge myid1010 3
-		1 FixedBrick myid1007 3
-			1 FixedBrick myid1008 1
-				1 FixedBrick myid1003 1
-					1 FixedBrick myid1002 3
-						1 FixedBrick myid1020 0
-						3 FixedBrick myid1011 1
-							1 FixedBrick myid1012 3
-							2 ParametricJoint myid1019 2 0.04978687 10.20628166 0.0
-								1 ParametricJoint myid1014 3 0.09330831 87.20333099 0.0
+		0 FixedBrick myid1007 3
+			0 FixedBrick myid1008 1
+				0 FixedBrick myid1003 1
+					0 FixedBrick myid1002 3
+						0 FixedBrick myid1020 0
+						2 FixedBrick myid1011 1
+							0 FixedBrick myid1012 3
+							1 ParametricJoint myid1019 2 0.04978687 10.20628166 0.00000000
+								0 ParametricJoint myid1014 3 0.09330831 87.20333099 0.00000000
 
 CoreComponent sigmoid
 CoreComponent sigmoid

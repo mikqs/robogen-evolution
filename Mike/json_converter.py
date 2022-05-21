@@ -12,10 +12,6 @@ def get_part(id_, body) :
         if part["id"] == id_ :
             return part
 
-#def fix_param(val) :
-#    return round(val * 10000)/10000.0
-
-
 def write_part(output, part, body, indentation_level=0) :
     for _ in range(indentation_level) :
         output.write("\t")
@@ -24,13 +20,11 @@ def write_part(output, part, body, indentation_level=0) :
     else :
         for connection in body["connection"] :
             if connection["dest"] == part["id"] :
-                # need to fix slot numbering
-                # see lines 182-186 in PartRepresentation
                 if get_part(connection["src"], 
-                            body)["type"] == "CoreComponent": 
+                            body)["root"] : 
                     output.write(str(connection["srcSlot"]))
                 else :
-                    output.write(str(connection["srcSlot"]))
+                    output.write(str(connection["srcSlot"] - 1))
     output.write(" ")
     output.write(part["type"])
     output.write(" ")
@@ -40,7 +34,7 @@ def write_part(output, part, body, indentation_level=0) :
     if "evolvableParam" in part :
         for param in part["evolvableParam"] :
             output.write(" ")
-            output.write(str(round(param["paramValue"],8)))
+            output.write("{:0.8f}".format(param["paramValue"]))
     output.write("\n")
     if "connection" in body :
         for connection in body["connection"] :
@@ -66,7 +60,6 @@ def write_brain(output, brain):
     # then connection weights
     if "connection" in brain:
         for connection in brain["connection"] :
-            #print connection["weight"]
             output.write(connection["src"].split("-")[0])
             output.write(" ")
             output.write(connection["src"].split("-")[1])
@@ -111,7 +104,3 @@ if __name__ == "__main__":
     output.write("\n") 
     if "brain" in robot :
         write_brain(output, robot["brain"])
-    
-    
-
-
