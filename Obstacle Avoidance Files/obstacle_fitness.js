@@ -84,12 +84,16 @@
 		k_distend = 100;
 		k_ir = 0.1;
 
-		console.log("cumdist: " + (this.cumDistance * k_dist) + " cumalt: " + (this.cumAltitude * k_alt) + " distendminpart: " + (minPartDist  * k_distend) + " cumMaxIR: " + (-this.cumMaxIrVals * k_ir));
+		if (this.cumMaxIrVals < 0.1){
+		    console.log("no interaction with obstacles");
+		    this.fitnesses.push(-10000)
+        } else {
+            console.log("cumdist: " + (this.cumDistance * k_dist) + " cumalt: " + (this.cumAltitude * k_alt) + " distendminpart: " + (minPartDist * k_distend) + " cumMaxIR: " + (-this.cumMaxIrVals * k_ir));
+            var fitness = (this.cumDistance * k_dist) + (this.cumAltitude * k_alt) + (minPartDist * k_distend) - (this.cumMaxIrVals * k_ir);
+            this.fitnesses.push(fitness);
 
-		var fitness = (this.cumDistance * k_dist) + (this.cumAltitude * k_alt) + (minPartDist * k_distend) - (this.cumMaxIrVals * k_ir);
-        this.fitnesses.push(fitness);
-
-        return true;
+        }
+		return true;
     },
 
     getFitness: function() {
