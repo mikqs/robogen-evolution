@@ -1,5 +1,5 @@
 simulatorConfFile=myConf.txt
-referenceRobotFile = Phase1_Tune_Best.txt
+referenceRobotFile = Phase1_Tune_Best_Sensors_Nay.txt
 
 evolutionMode=full
 numGenerations=100
@@ -29,7 +29,7 @@ maxBodyParts = 15
 useBrainSeed = true
 
 #BodyParams
-bodyParamSigma = 0.7
+bodyParamSigma = 0.3
 
 #Other parameters
 pNodeInsert=0.3
