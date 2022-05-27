@@ -18,12 +18,12 @@ pOscillatorNeuron = 0.7
 
 #Commonly used body variation parameters
 numInitialParts=4:10
-addBodyPart = CoreComponent
-addBodyPart = ParametricJoint
-addBodyPart = ActiveHinge
+#addBodyPart = CoreComponent
+#addBodyPart = ParametricJoint
+#addBodyPart = ActiveHinge
 addBodyPart = IrSensor
-addBodyPart = FixedBrick
-addBodyPart = PassiveHinge
+#addBodyPart = FixedBrick
+#addBodyPart = PassiveHinge
 maxBodyParts = 15
 
 useBrainSeed = true
