@@ -1,0 +1,447 @@
+0 CoreComponent CoreComponent 1
+	0 ActiveHinge myid1022 2
+		0 ActiveHinge myid1032 0
+	2 ParametricJoint myid1023 3 0.09330831 87.20333099 0.00000000
+		0 FixedBrick myid1046 3
+			2 ParametricJoint myid1033 2 0.10000000 73.07004547 0.00000000
+				0 PassiveHinge myid1041 0
+					0 FixedBrick myid1027 0
+						1 ActiveHinge myid1035 0
+						2 ActiveHinge myid1029 1
+							0 ActiveHinge myid1034 0
+								0 ActiveHinge myid1045 3
+									0 ParametricJoint myid1026 3 0.09330831 87.20333099 0.00000000
+										0 ActiveHinge myid1042 0
+											0 ParametricJoint myid1040 3 0.09330831 56.53225327 0.00000000
+
+CoreComponent sigmoid
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent sigmoid
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent sigmoid
+CoreComponent sigmoid
+CoreComponent oscillator
+CoreComponent oscillator
+
+CoreComponent 0 CoreComponent 12 -0.001022428390569985
+CoreComponent 0 CoreComponent 15 -3.0
+CoreComponent 0 CoreComponent 17 1.585951805114746
+CoreComponent 0 CoreComponent 18 0.19519925117492676
+CoreComponent 0 CoreComponent 19 -1.1013126373291016
+CoreComponent 0 CoreComponent 21 -0.3678603768348694
+CoreComponent 0 CoreComponent 22 -1.9991966485977173
+CoreComponent 0 CoreComponent 6 -3.0
+CoreComponent 0 CoreComponent 7 2.56238055229187
+CoreComponent 0 CoreComponent 9 -0.7835314273834229
+CoreComponent 0 myid1034 0 0.6734259724617004
+CoreComponent 0 myid1045 0 -0.8523536324501038
+CoreComponent 1 CoreComponent 12 1.8235101699829102
+CoreComponent 1 CoreComponent 15 -1.2188347578048706
+CoreComponent 1 CoreComponent 17 -2.1833086013793945
+CoreComponent 1 CoreComponent 18 0.3625900447368622
+CoreComponent 1 CoreComponent 19 0.13644073903560638
+CoreComponent 1 CoreComponent 21 1.54865300655365
+CoreComponent 1 CoreComponent 22 -1.5731767416000366
+CoreComponent 1 CoreComponent 6 1.2932493686676025
+CoreComponent 1 CoreComponent 7 -0.5816159248352051
+CoreComponent 1 CoreComponent 9 -3.0
+CoreComponent 1 myid1034 0 1.2408537864685059
+CoreComponent 1 myid1045 0 -0.9553830027580261
+CoreComponent 10 CoreComponent 12 -0.8530641794204712
+CoreComponent 10 CoreComponent 15 -1.7044451236724854
+CoreComponent 10 CoreComponent 17 2.540919303894043
+CoreComponent 10 CoreComponent 18 3.0
+CoreComponent 10 CoreComponent 19 -1.6660796403884888
+CoreComponent 10 CoreComponent 21 0.6559003591537476
+CoreComponent 10 CoreComponent 22 -0.535086989402771
+CoreComponent 10 CoreComponent 6 -2.297607898712158
+CoreComponent 10 CoreComponent 7 0.7813380360603333
+CoreComponent 10 CoreComponent 9 2.108388900756836
+CoreComponent 10 myid1034 0 1.0533761978149414
+CoreComponent 10 myid1045 0 -1.4575221538543701
+CoreComponent 11 CoreComponent 12 0.24626974761486053
+CoreComponent 11 CoreComponent 15 -1.3554015159606934
+CoreComponent 11 CoreComponent 17 0.22694289684295654
+CoreComponent 11 CoreComponent 18 -2.515817642211914
+CoreComponent 11 CoreComponent 19 -0.6923438906669617
+CoreComponent 11 CoreComponent 21 1.5124895572662354
+CoreComponent 11 CoreComponent 22 0.10715047270059586
+CoreComponent 11 CoreComponent 6 1.5774420499801636
+CoreComponent 11 CoreComponent 7 -0.8288630843162537
+CoreComponent 11 CoreComponent 9 -1.7757503986358643
+CoreComponent 11 myid1034 0 -0.16100381314754486
+CoreComponent 11 myid1045 0 -1.3764792680740356
+CoreComponent 12 CoreComponent 12 0.14915157854557037
+CoreComponent 12 CoreComponent 15 1.2434899806976318
+CoreComponent 12 CoreComponent 17 1.7873241901397705
+CoreComponent 12 CoreComponent 18 -2.4047887325286865
+CoreComponent 12 CoreComponent 19 -0.6168970465660095
+CoreComponent 12 CoreComponent 21 0.07678072899580002
+CoreComponent 12 CoreComponent 22 0.40031400322914124
+CoreComponent 12 CoreComponent 6 1.0915278196334839
+CoreComponent 12 CoreComponent 7 -1.4940040111541748
+CoreComponent 12 CoreComponent 9 2.061403274536133
+CoreComponent 12 myid1034 0 1.6013458967208862
+CoreComponent 12 myid1045 0 1.0006687641143799
+CoreComponent 13 CoreComponent 12 1.6213748455047607
+CoreComponent 13 CoreComponent 15 -0.9853889346122742
+CoreComponent 13 CoreComponent 17 0.5650025010108948
+CoreComponent 13 CoreComponent 18 0.3917347192764282
+CoreComponent 13 CoreComponent 19 1.6761537790298462
+CoreComponent 13 CoreComponent 21 -0.5906285643577576
+CoreComponent 13 CoreComponent 22 1.4657173156738281
+CoreComponent 13 CoreComponent 6 -1.5439642667770386
+CoreComponent 13 CoreComponent 7 -0.3858686089515686
+CoreComponent 13 CoreComponent 9 -0.38028115034103394
+CoreComponent 13 myid1034 0 2.649346113204956
+CoreComponent 13 myid1045 0 1.4694671630859375
+CoreComponent 14 CoreComponent 12 3.0
+CoreComponent 14 CoreComponent 15 1.9508329629898071
+CoreComponent 14 CoreComponent 17 -1.2152713537216187
+CoreComponent 14 CoreComponent 18 -3.0
+CoreComponent 14 CoreComponent 19 0.18847915530204773
+CoreComponent 14 CoreComponent 21 -0.19703632593154907
+CoreComponent 14 CoreComponent 22 -2.378516912460327
+CoreComponent 14 CoreComponent 6 -0.22866486012935638
+CoreComponent 14 CoreComponent 7 -2.4300944805145264
+CoreComponent 14 CoreComponent 9 -1.0259391069412231
+CoreComponent 14 myid1034 0 2.305058002471924
+CoreComponent 14 myid1045 0 -0.10592550784349442
+CoreComponent 15 CoreComponent 12 1.840539813041687
+CoreComponent 15 CoreComponent 15 -1.5682188272476196
+CoreComponent 15 CoreComponent 17 -2.497354745864868
+CoreComponent 15 CoreComponent 18 -0.9219980835914612
+CoreComponent 15 CoreComponent 19 1.6662342548370361
+CoreComponent 15 CoreComponent 21 0.14848963916301727
+CoreComponent 15 CoreComponent 22 -0.25168758630752563
+CoreComponent 15 CoreComponent 6 3.0
+CoreComponent 15 CoreComponent 7 -0.08986137062311172
+CoreComponent 15 CoreComponent 9 0.6845450401306152
+CoreComponent 15 myid1034 0 0.7499688863754272
+CoreComponent 15 myid1045 0 2.1061174869537354
+CoreComponent 16 CoreComponent 12 0.6558504104614258
+CoreComponent 16 CoreComponent 15 1.3600159883499146
+CoreComponent 16 CoreComponent 17 -2.7593493461608887
+CoreComponent 16 CoreComponent 18 3.0
+CoreComponent 16 CoreComponent 19 0.3322782814502716
+CoreComponent 16 CoreComponent 21 -2.7353765964508057
+CoreComponent 16 CoreComponent 22 -0.5774527192115784
+CoreComponent 16 CoreComponent 6 2.899261236190796
+CoreComponent 16 CoreComponent 7 1.8199071884155273
+CoreComponent 16 CoreComponent 9 1.243849754333496
+CoreComponent 16 myid1034 0 -3.0
+CoreComponent 16 myid1045 0 1.1371504068374634
+CoreComponent 17 CoreComponent 12 1.1428133249282837
+CoreComponent 17 CoreComponent 15 -1.2807754278182983
+CoreComponent 17 CoreComponent 17 1.1669985055923462
+CoreComponent 17 CoreComponent 18 1.093988060951233
+CoreComponent 17 CoreComponent 19 2.921109199523926
+CoreComponent 17 CoreComponent 21 -2.906461238861084
+CoreComponent 17 CoreComponent 22 0.88514244556427
+CoreComponent 17 CoreComponent 6 -1.9908881187438965
+CoreComponent 17 CoreComponent 7 1.090390920639038
+CoreComponent 17 CoreComponent 9 -3.0
+CoreComponent 17 myid1034 0 -1.7940106391906738
+CoreComponent 17 myid1045 0 0.19064149260520935
+CoreComponent 18 CoreComponent 12 -1.5381035804748535
+CoreComponent 18 CoreComponent 15 -1.0851263999938965
+CoreComponent 18 CoreComponent 17 0.4773801863193512
+CoreComponent 18 CoreComponent 18 0.1406862884759903
+CoreComponent 18 CoreComponent 19 -0.9120301008224487
+CoreComponent 18 CoreComponent 21 -0.22876854240894318
+CoreComponent 18 CoreComponent 22 1.2787420749664307
+CoreComponent 18 CoreComponent 6 -0.28581324219703674
+CoreComponent 18 CoreComponent 7 -0.3963156044483185
+CoreComponent 18 CoreComponent 9 2.724741220474243
+CoreComponent 18 myid1034 0 -0.024001354351639748
+CoreComponent 18 myid1045 0 -0.19580063223838806
+CoreComponent 19 CoreComponent 12 0.3973407745361328
+CoreComponent 19 CoreComponent 15 2.1203219890594482
+CoreComponent 19 CoreComponent 17 1.4564822912216187
+CoreComponent 19 CoreComponent 18 1.3504211902618408
+CoreComponent 19 CoreComponent 19 0.7138632535934448
+CoreComponent 19 CoreComponent 21 -1.9383432865142822
+CoreComponent 19 CoreComponent 22 0.14032553136348724
+CoreComponent 19 CoreComponent 6 -0.9509069919586182
+CoreComponent 19 CoreComponent 7 -0.6482091546058655
+CoreComponent 19 CoreComponent 9 0.7357831001281738
+CoreComponent 19 myid1034 0 0.6545438170433044
+CoreComponent 19 myid1045 0 -2.892385482788086
+CoreComponent 2 CoreComponent 12 -2.09991192817688
+CoreComponent 2 CoreComponent 15 2.628896951675415
+CoreComponent 2 CoreComponent 17 1.9205480813980103
+CoreComponent 2 CoreComponent 18 -0.2578572630882263
+CoreComponent 2 CoreComponent 19 -1.6605048179626465
+CoreComponent 2 CoreComponent 21 -0.1514224410057068
+CoreComponent 2 CoreComponent 22 -0.34800344705581665
+CoreComponent 2 CoreComponent 6 -1.4051803350448608
+CoreComponent 2 CoreComponent 7 -3.0
+CoreComponent 2 CoreComponent 9 -1.662023901939392
+CoreComponent 2 myid1034 0 -2.027069330215454
+CoreComponent 2 myid1045 0 1.9698817729949951
+CoreComponent 20 CoreComponent 12 -1.6870473623275757
+CoreComponent 20 CoreComponent 15 0.912972629070282
+CoreComponent 20 CoreComponent 17 -2.7239482402801514
+CoreComponent 20 CoreComponent 18 -1.1071292161941528
+CoreComponent 20 CoreComponent 19 -1.5142371654510498
+CoreComponent 20 CoreComponent 21 -0.734254777431488
+CoreComponent 20 CoreComponent 22 -1.8962187767028809
+CoreComponent 20 CoreComponent 6 0.568290650844574
+CoreComponent 20 CoreComponent 7 -0.4007973372936249
+CoreComponent 20 CoreComponent 9 -2.737208366394043
+CoreComponent 20 myid1034 0 -0.41813820600509644
+CoreComponent 20 myid1045 0 -0.11596560478210449
+CoreComponent 21 CoreComponent 12 1.5611042976379395
+CoreComponent 21 CoreComponent 15 1.2197819948196411
+CoreComponent 21 CoreComponent 17 0.6469535231590271
+CoreComponent 21 CoreComponent 18 -0.6975448727607727
+CoreComponent 21 CoreComponent 19 0.15009109675884247
+CoreComponent 21 CoreComponent 21 2.941849946975708
+CoreComponent 21 CoreComponent 22 0.8206797242164612
+CoreComponent 21 CoreComponent 6 -0.45739367604255676
+CoreComponent 21 CoreComponent 7 0.025899743661284447
+CoreComponent 21 CoreComponent 9 1.9010565280914307
+CoreComponent 21 myid1034 0 -2.1195929050445557
+CoreComponent 21 myid1045 0 -0.4200795292854309
+CoreComponent 22 CoreComponent 12 -3.0
+CoreComponent 22 CoreComponent 15 -0.5867938995361328
+CoreComponent 22 CoreComponent 17 0.9649344682693481
+CoreComponent 22 CoreComponent 18 1.3921942710876465
+CoreComponent 22 CoreComponent 19 -0.11825670301914215
+CoreComponent 22 CoreComponent 21 -2.266399383544922
+CoreComponent 22 CoreComponent 22 -0.15401162207126617
+CoreComponent 22 CoreComponent 6 -3.0
+CoreComponent 22 CoreComponent 7 -0.4265440106391907
+CoreComponent 22 CoreComponent 9 -2.5775625705718994
+CoreComponent 22 myid1034 0 -0.8271326422691345
+CoreComponent 22 myid1045 0 0.9204760789871216
+CoreComponent 23 CoreComponent 12 -0.4960973858833313
+CoreComponent 23 CoreComponent 15 -0.03575571998953819
+CoreComponent 23 CoreComponent 17 -0.5783305764198303
+CoreComponent 23 CoreComponent 18 1.7218903303146362
+CoreComponent 23 CoreComponent 19 -2.8842527866363525
+CoreComponent 23 CoreComponent 21 0.4212697744369507
+CoreComponent 23 CoreComponent 22 0.011220724321901798
+CoreComponent 23 CoreComponent 6 0.8325650691986084
+CoreComponent 23 CoreComponent 7 -1.215772032737732
+CoreComponent 23 CoreComponent 9 -1.5811660289764404
+CoreComponent 23 myid1034 0 1.1479742527008057
+CoreComponent 23 myid1045 0 1.5566710233688354
+CoreComponent 24 CoreComponent 12 1.644129991531372
+CoreComponent 24 CoreComponent 15 -3.0
+CoreComponent 24 CoreComponent 17 1.3045481443405151
+CoreComponent 24 CoreComponent 18 0.059661466628313065
+CoreComponent 24 CoreComponent 19 -0.5884511470794678
+CoreComponent 24 CoreComponent 21 0.7186184525489807
+CoreComponent 24 CoreComponent 22 1.9290364980697632
+CoreComponent 24 CoreComponent 6 -0.7142388820648193
+CoreComponent 24 CoreComponent 7 1.1080244779586792
+CoreComponent 24 CoreComponent 9 1.0776010751724243
+CoreComponent 24 myid1034 0 -0.6166048645973206
+CoreComponent 24 myid1045 0 0.6589177846908569
+CoreComponent 3 CoreComponent 12 1.1223262548446655
+CoreComponent 3 CoreComponent 15 2.8116087913513184
+CoreComponent 3 CoreComponent 17 2.5021259784698486
+CoreComponent 3 CoreComponent 18 -1.7159603834152222
+CoreComponent 3 CoreComponent 19 -2.2276406288146973
+CoreComponent 3 CoreComponent 21 -0.344124436378479
+CoreComponent 3 CoreComponent 22 1.4642117023468018
+CoreComponent 3 CoreComponent 6 -3.0
+CoreComponent 3 CoreComponent 7 3.0
+CoreComponent 3 CoreComponent 9 0.7248142957687378
+CoreComponent 3 myid1034 0 0.9168559908866882
+CoreComponent 3 myid1045 0 1.1812406778335571
+CoreComponent 4 CoreComponent 12 -2.9774792194366455
+CoreComponent 4 CoreComponent 15 1.1413019895553589
+CoreComponent 4 CoreComponent 17 0.5105124115943909
+CoreComponent 4 CoreComponent 18 1.4348310232162476
+CoreComponent 4 CoreComponent 19 1.4991992712020874
+CoreComponent 4 CoreComponent 21 -2.7864468097686768
+CoreComponent 4 CoreComponent 22 1.2152806520462036
+CoreComponent 4 CoreComponent 6 2.8607120513916016
+CoreComponent 4 CoreComponent 7 0.4352359175682068
+CoreComponent 4 CoreComponent 9 3.0
+CoreComponent 4 myid1034 0 0.09569811075925827
+CoreComponent 4 myid1045 0 0.17809446156024933
+CoreComponent 5 CoreComponent 12 1.4472123384475708
+CoreComponent 5 CoreComponent 15 0.44824305176734924
+CoreComponent 5 CoreComponent 17 -0.6717999577522278
+CoreComponent 5 CoreComponent 18 -0.6854196190834045
+CoreComponent 5 CoreComponent 19 0.6369375586509705
+CoreComponent 5 CoreComponent 21 -0.4740658402442932
+CoreComponent 5 CoreComponent 22 1.9588720798492432
+CoreComponent 5 CoreComponent 6 0.7555752992630005
+CoreComponent 5 CoreComponent 7 -0.5600150227546692
+CoreComponent 5 CoreComponent 9 2.436824321746826
+CoreComponent 5 myid1034 0 0.9017941355705261
+CoreComponent 5 myid1045 0 0.5449610948562622
+CoreComponent 6 CoreComponent 12 -1.786643147468567
+CoreComponent 6 CoreComponent 15 2.557044744491577
+CoreComponent 6 CoreComponent 17 2.8941102027893066
+CoreComponent 6 CoreComponent 18 -2.683676242828369
+CoreComponent 6 CoreComponent 19 0.9328529238700867
+CoreComponent 6 CoreComponent 21 -1.3884631395339966
+CoreComponent 6 CoreComponent 22 -0.32698628306388855
+CoreComponent 6 CoreComponent 6 -1.2294158935546875
+CoreComponent 6 CoreComponent 7 -2.3267462253570557
+CoreComponent 6 CoreComponent 9 -0.6352213621139526
+CoreComponent 6 myid1034 0 0.07128707319498062
+CoreComponent 6 myid1045 0 -0.5894204378128052
+CoreComponent 7 CoreComponent 12 3.0
+CoreComponent 7 CoreComponent 15 -0.604683518409729
+CoreComponent 7 CoreComponent 17 0.06649193912744522
+CoreComponent 7 CoreComponent 18 0.6258041858673096
+CoreComponent 7 CoreComponent 19 0.9597535729408264
+CoreComponent 7 CoreComponent 21 -0.8957314491271973
+CoreComponent 7 CoreComponent 22 0.9545372724533081
+CoreComponent 7 CoreComponent 6 3.0
+CoreComponent 7 CoreComponent 7 -1.5858408212661743
+CoreComponent 7 CoreComponent 9 0.8469440340995789
+CoreComponent 7 myid1034 0 -2.223026752471924
+CoreComponent 7 myid1045 0 0.9566062688827515
+CoreComponent 8 CoreComponent 12 -0.29534274339675903
+CoreComponent 8 CoreComponent 15 1.4091342687606812
+CoreComponent 8 CoreComponent 17 1.3196736574172974
+CoreComponent 8 CoreComponent 18 -1.8051095008850098
+CoreComponent 8 CoreComponent 19 -1.279695987701416
+CoreComponent 8 CoreComponent 21 -0.11628435552120209
+CoreComponent 8 CoreComponent 22 0.16495896875858307
+CoreComponent 8 CoreComponent 6 -2.577939033508301
+CoreComponent 8 CoreComponent 7 -1.534067153930664
+CoreComponent 8 CoreComponent 9 -0.27568113803863525
+CoreComponent 8 myid1034 0 -0.9697622656822205
+CoreComponent 8 myid1045 0 0.6848387122154236
+CoreComponent 9 CoreComponent 12 2.658477783203125
+CoreComponent 9 CoreComponent 15 0.8422499895095825
+CoreComponent 9 CoreComponent 17 -1.5407670736312866
+CoreComponent 9 CoreComponent 18 -0.04993172362446785
+CoreComponent 9 CoreComponent 19 -2.960784435272217
+CoreComponent 9 CoreComponent 21 -2.1705634593963623
+CoreComponent 9 CoreComponent 22 0.030060313642024994
+CoreComponent 9 CoreComponent 6 1.7531259059906006
+CoreComponent 9 CoreComponent 7 -3.0
+CoreComponent 9 CoreComponent 9 0.8969091176986694
+CoreComponent 9 myid1034 0 0.40929704904556274
+CoreComponent 9 myid1045 0 -0.12198000401258469
+myid1022 0 CoreComponent 12 1.9957983493804932
+myid1022 0 CoreComponent 15 0.23622772097587585
+myid1022 0 CoreComponent 17 1.2917354106903076
+myid1022 0 CoreComponent 18 -1.614772081375122
+myid1022 0 CoreComponent 19 1.9465630054473877
+myid1022 0 CoreComponent 21 1.0078856945037842
+myid1022 0 CoreComponent 22 0.36461445689201355
+myid1022 0 CoreComponent 6 -1.9766136407852173
+myid1022 0 CoreComponent 7 -2.9314236640930176
+myid1022 0 CoreComponent 9 -1.8376085758209229
+myid1022 0 myid1034 0 -1.4383796453475952
+myid1022 0 myid1045 0 -1.7347429990768433
+myid1029 0 CoreComponent 12 -2.1462175846099854
+myid1029 0 CoreComponent 15 -0.8307962417602539
+myid1029 0 CoreComponent 17 -0.3175002336502075
+myid1029 0 CoreComponent 18 2.320265769958496
+myid1029 0 CoreComponent 19 1.7840749025344849
+myid1029 0 CoreComponent 21 -2.4861927032470703
+myid1029 0 CoreComponent 22 -2.254012107849121
+myid1029 0 CoreComponent 6 -2.685779094696045
+myid1029 0 CoreComponent 7 -2.936431884765625
+myid1029 0 CoreComponent 9 -2.073819398880005
+myid1029 0 myid1034 0 1.727872371673584
+myid1029 0 myid1045 0 1.3078116178512573
+myid1032 0 CoreComponent 12 -0.520977795124054
+myid1032 0 CoreComponent 15 -0.3312184512615204
+myid1032 0 CoreComponent 17 0.5880148410797119
+myid1032 0 CoreComponent 18 0.3578634262084961
+myid1032 0 CoreComponent 19 -0.7101804614067078
+myid1032 0 CoreComponent 21 1.8264347314834595
+myid1032 0 CoreComponent 22 -0.9793257713317871
+myid1032 0 CoreComponent 6 2.8570876121520996
+myid1032 0 CoreComponent 7 -2.709749937057495
+myid1032 0 CoreComponent 9 2.4064812660217285
+myid1032 0 myid1034 0 0.689458429813385
+myid1032 0 myid1045 0 -0.060868240892887115
+myid1034 0 CoreComponent 12 0.5902503728866577
+myid1034 0 CoreComponent 15 1.0306410789489746
+myid1034 0 CoreComponent 17 -2.8302714824676514
+myid1034 0 CoreComponent 18 0.3544600307941437
+myid1034 0 CoreComponent 19 -2.7452824115753174
+myid1034 0 CoreComponent 21 0.3217238187789917
+myid1034 0 CoreComponent 22 2.2530763149261475
+myid1034 0 CoreComponent 6 0.37031862139701843
+myid1034 0 CoreComponent 7 -0.2306533008813858
+myid1034 0 CoreComponent 9 -0.9226952195167542
+myid1034 0 myid1034 0 -1.3862701654434204
+myid1034 0 myid1045 0 1.1090331077575684
+myid1035 0 CoreComponent 12 -0.12192238122224808
+myid1035 0 CoreComponent 15 -0.27523574233055115
+myid1035 0 CoreComponent 17 1.4782414436340332
+myid1035 0 CoreComponent 18 -1.518101692199707
+myid1035 0 CoreComponent 19 0.9828671813011169
+myid1035 0 CoreComponent 21 2.759922504425049
+myid1035 0 CoreComponent 22 -1.8996978998184204
+myid1035 0 CoreComponent 6 -0.8576253652572632
+myid1035 0 CoreComponent 7 -3.0
+myid1035 0 CoreComponent 9 -0.2709750533103943
+myid1035 0 myid1034 0 -1.6616486310958862
+myid1035 0 myid1045 0 0.147629514336586
+myid1042 0 CoreComponent 12 1.0308867692947388
+myid1042 0 CoreComponent 15 0.03721899539232254
+myid1042 0 CoreComponent 17 -0.7273768782615662
+myid1042 0 CoreComponent 18 0.23660743236541748
+myid1042 0 CoreComponent 19 -0.7386969923973083
+myid1042 0 CoreComponent 21 -1.2954026460647583
+myid1042 0 CoreComponent 22 -1.6987826824188232
+myid1042 0 CoreComponent 6 2.1728806495666504
+myid1042 0 CoreComponent 7 0.47823482751846313
+myid1042 0 CoreComponent 9 0.10025709122419357
+myid1042 0 myid1034 0 -3.0
+myid1042 0 myid1045 0 -0.9756884574890137
+myid1045 0 CoreComponent 12 0.9634884595870972
+myid1045 0 CoreComponent 15 -1.0159647464752197
+myid1045 0 CoreComponent 17 -0.35467222332954407
+myid1045 0 CoreComponent 18 0.12958498299121857
+myid1045 0 CoreComponent 19 -2.2971222400665283
+myid1045 0 CoreComponent 21 -0.2841113805770874
+myid1045 0 CoreComponent 22 -0.22921492159366608
+myid1045 0 CoreComponent 6 2.08081316947937
+myid1045 0 CoreComponent 7 -3.0
+myid1045 0 CoreComponent 9 0.7204897999763489
+myid1045 0 myid1034 0 1.677735447883606
+myid1045 0 myid1045 0 -1.6058369874954224
+
+CoreComponent 6 2.279991626739502
+CoreComponent 7 1.8574589490890503
+CoreComponent 8 oscillator 0.10336356610059738 -0.7196276187896729 0.49341151118278503
+CoreComponent 9 0.076937235891819
+CoreComponent 10 oscillator 1.6621851921081543 0.7899903655052185 0.37290823459625244
+CoreComponent 11 oscillator 0.25691938400268555 -0.5101444721221924 0.5658341646194458
+CoreComponent 12 -3.0
+CoreComponent 13 oscillator 0.8124195337295532 0.7198282480239868 0.4978923797607422
+CoreComponent 14 oscillator 0.7559055089950562 -0.4630180597305298 1.0
+CoreComponent 15 3.0
+CoreComponent 16 oscillator 0.3273524343967438 1.0 1.0
+CoreComponent 17 -0.3855319321155548
+CoreComponent 18 -1.2453280687332153
+CoreComponent 19 -0.2481953352689743
+CoreComponent 20 oscillator 0.4626080095767975 0.39436566829681396 1.0
+CoreComponent 21 -0.9994662404060364
+CoreComponent 22 -0.574389636516571
+CoreComponent 23 oscillator 0.5698647499084473 0.5112704634666443 0.8704659938812256
+CoreComponent 24 oscillator 0.5648645758628845 0.6225239038467407 0.10422228276729584
+myid1022 0 oscillator 0.7079159617424011 0.3864394724369049 1.0
+myid1029 0 oscillator 1.1439051628112793 -0.36362382769584656 0.7739975452423096
+myid1032 0 oscillator 0.17672860622406006 -1.0 0.7704491019248962
+myid1034 0 0.42292046546936035
+myid1035 0 oscillator 0.7905884981155396 -0.6926408410072327 0.8423545956611633
+myid1042 0 oscillator 0.0 -0.009231405332684517 1.0
+myid1045 0 0.5534347891807556
