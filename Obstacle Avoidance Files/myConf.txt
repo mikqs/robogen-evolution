@@ -1,8 +1,7 @@
 # Fitness function
 
-scenario = obstacle_fitness.js
-obstaclesConfigFile = ObstaclesArena.txt
-
+scenario = obstacle_fit.js
+obstaclesConfigFile = bigarena.txt
 
 #Time Parameters 
 timeStep=0.01
