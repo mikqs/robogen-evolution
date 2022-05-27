@@ -1,6 +1,6 @@
 # Fitness function
 
-scenario = tune_fit_and_obs_avoid_mickael.js
+scenario = obstacle_fitness.js
 obstaclesConfigFile = ObstaclesArena.txt
 
 
