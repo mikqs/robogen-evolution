@@ -1,0 +1,23 @@
+simulatorConfFile=simulate.conf.txt
+referenceRobotFile = sensored_robot.txt
+
+evolutionMode=brain
+numGenerations=100
+mu=25
+lambda=40
+selection=deterministic-tournament
+replacement=plus
+tournamentSize=2
+
+#Commonly used brain parameters
+pBrainMutate=0.7
+brainSigma=.7
+brainBounds=-3:3
+pAddHiddenNeuron=0.6
+pOscillatorNeuron = 0.7
+
+useBrainSeed = true
+
+socket=127.0.0.1:8001
+#socket=127.0.0.1:8002
+#socket=127.0.0.1:8003
