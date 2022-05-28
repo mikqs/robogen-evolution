@@ -72,7 +72,8 @@
 
 		this.currMaxIr = maxIr;
         var deltaIR = this.currMaxIr - this.prevMaxIr;
-        if (deltaDistance*deltaIR>0){
+		
+        if (deltaDistance*deltaIR>0 && deltaIR>0.05){
             this.obstacle_avoid_reward -= 2;
         }
         else{
@@ -86,11 +87,15 @@
         // Choose weighting factors for relative importance
         k_dist = 10;
 		k_alt = 5;
+		k_ir = 0.1;
 
-        if (this.cumDistance>1){
-            var fitness = this.cumDistance*(k_dist + k_alt*this.cumAltitude)*this.obstacle_avoid_reward;
+        if (this.cumDistance < 2.0 && this.cumDistance > 1.0){
+            var fitness = this.cumDistance*(k_dist + k_alt*this.cumAltitude + k_ir*this.obstacle_avoid_reward);
         }
-        else{
+        else if (this.cumDistance >2.0){
+		this.cumDistance * k_dist; 
+		}
+		else {
             var fitness = -10/(this.cumDistance+0.001);
         }
 
@@ -116,3 +121,4 @@
     },
 
 }
+
