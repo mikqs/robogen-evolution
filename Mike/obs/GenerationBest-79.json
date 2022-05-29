@@ -1,0 +1,1917 @@
+{
+ "id": 1,
+ "body": {
+  "part": [
+   {
+    "id": "CoreComponent",
+    "type": "CoreComponent",
+    "root": true,
+    "orientation": 0
+   },
+   {
+    "id": "myid1011",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "myid1000",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 3
+   },
+   {
+    "id": "myid1004",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "Distance0",
+    "type": "IrSensor",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1010",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1013",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1021",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.074515797197818756
+     },
+     {
+      "paramValue": 33.730724334716797
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 3
+   },
+   {
+    "id": "myid1016",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.086721122264862061
+     },
+     {
+      "paramValue": -83.581954956054688
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 0
+   },
+   {
+    "id": "myid1023",
+    "type": "FixedBrick",
+    "root": false,
+    "orientation": 2
+   },
+   {
+    "id": "Distance1",
+    "type": "IrSensor",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1017",
+    "type": "ActiveHinge",
+    "root": false,
+    "orientation": 1
+   },
+   {
+    "id": "myid1022",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.030806329101324081
+     },
+     {
+      "paramValue": -5.6658515930175781
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 0
+   },
+   {
+    "id": "Distance2",
+    "type": "IrSensor",
+    "root": false,
+    "orientation": 0
+   },
+   {
+    "id": "myid1005",
+    "type": "ParametricJoint",
+    "root": false,
+    "evolvableParam": [
+     {
+      "paramValue": 0.030806329101324081
+     },
+     {
+      "paramValue": -5.6658515930175781
+     },
+     {
+      "paramValue": 0.0
+     }
+    ],
+    "orientation": 0
+   },
+   {
+    "id": "Distance3",
+    "type": "IrSensor",
+    "root": false,
+    "orientation": 0
+   }
+  ],
+  "connection": [
+   {
+    "src": "CoreComponent",
+    "dest": "myid1011",
+    "srcSlot": 0,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1011",
+    "dest": "myid1000",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1000",
+    "dest": "myid1004",
+    "srcSlot": 2,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1004",
+    "dest": "Distance0",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1004",
+    "dest": "myid1010",
+    "srcSlot": 3,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1010",
+    "dest": "myid1013",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1013",
+    "dest": "myid1021",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1021",
+    "dest": "myid1016",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1016",
+    "dest": "myid1023",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1023",
+    "dest": "Distance1",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1000",
+    "dest": "myid1017",
+    "srcSlot": 3,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1017",
+    "dest": "myid1022",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1022",
+    "dest": "Distance2",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "CoreComponent",
+    "dest": "myid1005",
+    "srcSlot": 1,
+    "destSlot": 0
+   },
+   {
+    "src": "myid1005",
+    "dest": "Distance3",
+    "srcSlot": 1,
+    "destSlot": 0
+   }
+  ]
+ },
+ "brain": {
+  "neuron": [
+   {
+    "id": "CoreComponent-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-1",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 1,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-2",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 2,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-3",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 3,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-4",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 4,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-5",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "CoreComponent",
+    "ioId": 5,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-6",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -0.85097968578338623,
+    "bodyPartId": "CoreComponent",
+    "ioId": 6,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-7",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 7,
+    "phaseOffset": 0.73875761032104492,
+    "period": 1.1948761940002441,
+    "gain": 0.2511570155620575
+   },
+   {
+    "id": "CoreComponent-8",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 8,
+    "phaseOffset": 0.0028806482441723347,
+    "period": 1.2750320434570312,
+    "gain": 0.90859377384185791
+   },
+   {
+    "id": "CoreComponent-9",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 9,
+    "phaseOffset": 0.29463076591491699,
+    "period": 1.4490286111831665,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-10",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 10,
+    "phaseOffset": 0.63131773471832275,
+    "period": 0.10043820738792419,
+    "gain": 0.0023867948912084103
+   },
+   {
+    "id": "CoreComponent-11",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 11,
+    "phaseOffset": -0.71294701099395752,
+    "period": 1.3227546215057373,
+    "gain": 0.31270429491996765
+   },
+   {
+    "id": "CoreComponent-12",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 12,
+    "phaseOffset": 0.30280390381813049,
+    "period": 0.0,
+    "gain": 0.56604909896850586
+   },
+   {
+    "id": "CoreComponent-13",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 13,
+    "phaseOffset": 0.88763177394866943,
+    "period": 0.66744357347488403,
+    "gain": 0.9476054310798645
+   },
+   {
+    "id": "CoreComponent-14",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 14,
+    "phaseOffset": -0.016747808083891869,
+    "period": 0.1837981790304184,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-15",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 15,
+    "phaseOffset": 1.0,
+    "period": 0.48715835809707642,
+    "gain": 0.54367566108703613
+   },
+   {
+    "id": "CoreComponent-16",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -1.1689672470092773,
+    "bodyPartId": "CoreComponent",
+    "ioId": 16,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-17",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -3.0,
+    "bodyPartId": "CoreComponent",
+    "ioId": 17,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-18",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -1.3142802715301514,
+    "bodyPartId": "CoreComponent",
+    "ioId": 18,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-19",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 19,
+    "phaseOffset": -1.0,
+    "period": 1.6669877767562866,
+    "gain": 0.56144994497299194
+   },
+   {
+    "id": "CoreComponent-20",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -2.0510165691375732,
+    "bodyPartId": "CoreComponent",
+    "ioId": 20,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-21",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 21,
+    "phaseOffset": -0.71983879804611206,
+    "period": 0.14851202070713043,
+    "gain": 0.28183451294898987
+   },
+   {
+    "id": "CoreComponent-22",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": 1.0181866884231567,
+    "bodyPartId": "CoreComponent",
+    "ioId": 22,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-23",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 23,
+    "phaseOffset": 1.0,
+    "period": 0.22715739905834198,
+    "gain": 0.006237332709133625
+   },
+   {
+    "id": "CoreComponent-24",
+    "layer": "hidden",
+    "type": "sigmoid",
+    "bias": -1.0856285095214844,
+    "bodyPartId": "CoreComponent",
+    "ioId": 24,
+    "gain": 1.0
+   },
+   {
+    "id": "CoreComponent-25",
+    "layer": "hidden",
+    "type": "oscillator",
+    "bodyPartId": "CoreComponent",
+    "ioId": 25,
+    "phaseOffset": 0.047788899391889572,
+    "period": 0.0,
+    "gain": 0.51474136114120483
+   },
+   {
+    "id": "Distance0-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Distance0",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Distance1-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Distance1",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Distance2-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Distance2",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "Distance3-0",
+    "layer": "input",
+    "type": "simple",
+    "bodyPartId": "Distance3",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "myid1010-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1010",
+    "ioId": 0,
+    "phaseOffset": -0.13529199361801147,
+    "period": 0.15543429553508759,
+    "gain": 0.33531603217124939
+   },
+   {
+    "id": "myid1011-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1011",
+    "ioId": 0,
+    "phaseOffset": -0.49834898114204407,
+    "period": 0.4586804211139679,
+    "gain": 0.71778446435928345
+   },
+   {
+    "id": "myid1013-0",
+    "layer": "output",
+    "type": "sigmoid",
+    "bias": -1.8970739841461182,
+    "bodyPartId": "myid1013",
+    "ioId": 0,
+    "gain": 1.0
+   },
+   {
+    "id": "myid1017-0",
+    "layer": "output",
+    "type": "oscillator",
+    "bodyPartId": "myid1017",
+    "ioId": 0,
+    "phaseOffset": 1.0,
+    "period": 0.0,
+    "gain": 0.95327264070510864
+   }
+  ],
+  "connection": [
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-16",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-17",
+    "weight": 2.8218941688537598
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-18",
+    "weight": -2.8596477508544922
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-20",
+    "weight": 1.1620081663131714
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-22",
+    "weight": -1.4760675430297852
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-24",
+    "weight": -2.0103564262390137
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "CoreComponent-6",
+    "weight": -1.6749621629714966
+   },
+   {
+    "src": "CoreComponent-0",
+    "dest": "myid1013-0",
+    "weight": 2.090897798538208
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-16",
+    "weight": -1.9065060615539551
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-17",
+    "weight": 1.3041454553604126
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-18",
+    "weight": 0.088554814457893372
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-20",
+    "weight": 1.5157487392425537
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-22",
+    "weight": -1.9268865585327148
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-24",
+    "weight": 0.51968210935592651
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "CoreComponent-6",
+    "weight": -2.571422815322876
+   },
+   {
+    "src": "CoreComponent-1",
+    "dest": "myid1013-0",
+    "weight": 0.49955707788467407
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-16",
+    "weight": 0.73895746469497681
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-17",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-18",
+    "weight": -0.29191330075263977
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-20",
+    "weight": 1.829470157623291
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-22",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-24",
+    "weight": 0.28440624475479126
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "CoreComponent-6",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-10",
+    "dest": "myid1013-0",
+    "weight": 2.9820308685302734
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-16",
+    "weight": 0.31091058254241943
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-17",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-18",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-20",
+    "weight": -0.63619542121887207
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-22",
+    "weight": 0.90729290246963501
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-24",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "CoreComponent-6",
+    "weight": 0.89130270481109619
+   },
+   {
+    "src": "CoreComponent-11",
+    "dest": "myid1013-0",
+    "weight": -2.8718523979187012
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-16",
+    "weight": 2.7400119304656982
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-17",
+    "weight": -0.04758906364440918
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-18",
+    "weight": 1.4749463796615601
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-20",
+    "weight": -1.2919273376464844
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-22",
+    "weight": -1.6292040348052979
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-24",
+    "weight": -1.045498251914978
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "CoreComponent-6",
+    "weight": -1.8881829977035522
+   },
+   {
+    "src": "CoreComponent-12",
+    "dest": "myid1013-0",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-16",
+    "weight": 1.1111500263214111
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-17",
+    "weight": 1.6513539552688599
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-18",
+    "weight": -1.4764813184738159
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-20",
+    "weight": 2.7555925846099854
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-22",
+    "weight": 0.046686369925737381
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-24",
+    "weight": 0.75370067358016968
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "CoreComponent-6",
+    "weight": 1.189791202545166
+   },
+   {
+    "src": "CoreComponent-13",
+    "dest": "myid1013-0",
+    "weight": 2.9906058311462402
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-16",
+    "weight": -1.3278379440307617
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-17",
+    "weight": 1.0016045570373535
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-18",
+    "weight": 1.2322924137115479
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-20",
+    "weight": -0.72342532873153687
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-22",
+    "weight": 2.4954628944396973
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-24",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "CoreComponent-6",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-14",
+    "dest": "myid1013-0",
+    "weight": -1.695895791053772
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-16",
+    "weight": -1.4019225835800171
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-17",
+    "weight": -1.180290699005127
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-18",
+    "weight": -2.2209396362304688
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-20",
+    "weight": 2.7423305511474609
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-22",
+    "weight": -1.3314201831817627
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-24",
+    "weight": -2.8926951885223389
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "CoreComponent-6",
+    "weight": 1.3080155849456787
+   },
+   {
+    "src": "CoreComponent-15",
+    "dest": "myid1013-0",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-16",
+    "weight": -1.5494908094406128
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-17",
+    "weight": -0.34503117203712463
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-18",
+    "weight": -2.2558674812316895
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-20",
+    "weight": -0.3355579674243927
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-22",
+    "weight": 0.13434851169586182
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-24",
+    "weight": -2.4042754173278809
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "CoreComponent-6",
+    "weight": 2.0242304801940918
+   },
+   {
+    "src": "CoreComponent-16",
+    "dest": "myid1013-0",
+    "weight": 0.56830966472625732
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-16",
+    "weight": -0.13863128423690796
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-17",
+    "weight": -2.7990877628326416
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-18",
+    "weight": 0.68603479862213135
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-20",
+    "weight": -2.0216195583343506
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-22",
+    "weight": 2.3198103904724121
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-24",
+    "weight": -0.12225823849439621
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "CoreComponent-6",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-17",
+    "dest": "myid1013-0",
+    "weight": 0.61124223470687866
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-16",
+    "weight": -0.2305188924074173
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-17",
+    "weight": -0.19205029308795929
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-18",
+    "weight": 1.6151528358459473
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-20",
+    "weight": -0.095619283616542816
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-22",
+    "weight": -0.86696267127990723
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-24",
+    "weight": 2.6932542324066162
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "CoreComponent-6",
+    "weight": 2.9354839324951172
+   },
+   {
+    "src": "CoreComponent-18",
+    "dest": "myid1013-0",
+    "weight": -2.2379021644592285
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-16",
+    "weight": 1.663036584854126
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-17",
+    "weight": -1.6422092914581299
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-18",
+    "weight": 0.19757059216499329
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-20",
+    "weight": 0.59888219833374023
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-22",
+    "weight": 0.90152162313461304
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-24",
+    "weight": -2.3698909282684326
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "CoreComponent-6",
+    "weight": 0.51075077056884766
+   },
+   {
+    "src": "CoreComponent-19",
+    "dest": "myid1013-0",
+    "weight": 1.6046744585037231
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-16",
+    "weight": 2.0362076759338379
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-17",
+    "weight": 2.9666907787322998
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-18",
+    "weight": -1.8468691110610962
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-20",
+    "weight": 1.1747761964797974
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-22",
+    "weight": -1.4524281024932861
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-24",
+    "weight": 1.503969669342041
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "CoreComponent-6",
+    "weight": 1.9344831705093384
+   },
+   {
+    "src": "CoreComponent-2",
+    "dest": "myid1013-0",
+    "weight": -1.2696483135223389
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-16",
+    "weight": -1.101752758026123
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-17",
+    "weight": -2.6474635601043701
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-18",
+    "weight": 0.27593711018562317
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-20",
+    "weight": -1.3844395875930786
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-22",
+    "weight": -1.528328537940979
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-24",
+    "weight": 2.7036063671112061
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "CoreComponent-6",
+    "weight": -0.38618174195289612
+   },
+   {
+    "src": "CoreComponent-20",
+    "dest": "myid1013-0",
+    "weight": 0.051344897598028183
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-16",
+    "weight": -1.3692108392715454
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-17",
+    "weight": -1.9659856557846069
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-18",
+    "weight": 1.641196608543396
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-20",
+    "weight": 0.82962799072265625
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-22",
+    "weight": -1.1818090677261353
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-24",
+    "weight": -1.481681227684021
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "CoreComponent-6",
+    "weight": 2.0842814445495605
+   },
+   {
+    "src": "CoreComponent-21",
+    "dest": "myid1013-0",
+    "weight": 1.6174155473709106
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-16",
+    "weight": 2.7989413738250732
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-17",
+    "weight": -0.71556979417800903
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-18",
+    "weight": -0.28431373834609985
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-20",
+    "weight": -1.7021796703338623
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-22",
+    "weight": -2.6621873378753662
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-24",
+    "weight": -1.8112379312515259
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "CoreComponent-6",
+    "weight": 1.9985378980636597
+   },
+   {
+    "src": "CoreComponent-22",
+    "dest": "myid1013-0",
+    "weight": -0.40331706404685974
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-16",
+    "weight": 0.42397069931030273
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-17",
+    "weight": 2.9959545135498047
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-18",
+    "weight": -0.47497603297233582
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-20",
+    "weight": 0.21197786927223206
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-22",
+    "weight": 2.9516708850860596
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-24",
+    "weight": 0.86669623851776123
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "CoreComponent-6",
+    "weight": 0.59849715232849121
+   },
+   {
+    "src": "CoreComponent-23",
+    "dest": "myid1013-0",
+    "weight": 2.8713791370391846
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-16",
+    "weight": 2.9369063377380371
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-17",
+    "weight": 2.4565701484680176
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-18",
+    "weight": 1.6848279237747192
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-20",
+    "weight": 0.08688770979642868
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-22",
+    "weight": -1.2489794492721558
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-24",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "CoreComponent-6",
+    "weight": 0.7820468544960022
+   },
+   {
+    "src": "CoreComponent-24",
+    "dest": "myid1013-0",
+    "weight": 0.86794596910476685
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-16",
+    "weight": 0.73818206787109375
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-17",
+    "weight": 0.94430220127105713
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-18",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-20",
+    "weight": 1.5715776681900024
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-22",
+    "weight": 0.12384475767612457
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-24",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "CoreComponent-6",
+    "weight": 1.0809370279312134
+   },
+   {
+    "src": "CoreComponent-25",
+    "dest": "myid1013-0",
+    "weight": -2.5210962295532227
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-16",
+    "weight": 1.0845197439193726
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-17",
+    "weight": 0.48460930585861206
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-18",
+    "weight": 0.99700278043746948
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-20",
+    "weight": 0.44797694683074951
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-22",
+    "weight": 2.7157924175262451
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-24",
+    "weight": 1.6930608749389648
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "CoreComponent-6",
+    "weight": 1.6718837022781372
+   },
+   {
+    "src": "CoreComponent-3",
+    "dest": "myid1013-0",
+    "weight": 1.5349195003509521
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-16",
+    "weight": 1.0609281063079834
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-17",
+    "weight": -0.26353344321250916
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-18",
+    "weight": 1.5153164863586426
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-20",
+    "weight": -1.3049960136413574
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-22",
+    "weight": 0.75882726907730103
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-24",
+    "weight": -0.21766567230224609
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "CoreComponent-6",
+    "weight": -1.8103593587875366
+   },
+   {
+    "src": "CoreComponent-4",
+    "dest": "myid1013-0",
+    "weight": -0.14850763976573944
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-16",
+    "weight": 0.47906410694122314
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-17",
+    "weight": -0.6275322437286377
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-18",
+    "weight": -2.6053080558776855
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-20",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-22",
+    "weight": 1.0225594043731689
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-24",
+    "weight": -1.5092935562133789
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "CoreComponent-6",
+    "weight": 0.12470472604036331
+   },
+   {
+    "src": "CoreComponent-5",
+    "dest": "myid1013-0",
+    "weight": 0.58454614877700806
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-16",
+    "weight": 1.8765404224395752
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-17",
+    "weight": 2.8141205310821533
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-18",
+    "weight": -2.0575611591339111
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-20",
+    "weight": 1.5751895904541016
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-22",
+    "weight": 1.2645750045776367
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-24",
+    "weight": -2.3495690822601318
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "CoreComponent-6",
+    "weight": -0.5120004415512085
+   },
+   {
+    "src": "CoreComponent-6",
+    "dest": "myid1013-0",
+    "weight": 1.2379497289657593
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-16",
+    "weight": 0.15331049263477325
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-17",
+    "weight": 0.55143612623214722
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-18",
+    "weight": 1.8853315114974976
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-20",
+    "weight": -1.1735849380493164
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-22",
+    "weight": 0.25367948412895203
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-24",
+    "weight": 3.0
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "CoreComponent-6",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-7",
+    "dest": "myid1013-0",
+    "weight": 1.0347530841827393
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-16",
+    "weight": 2.5753767490386963
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-17",
+    "weight": 1.2209054231643677
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-18",
+    "weight": -2.6938002109527588
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-20",
+    "weight": 0.22547027468681335
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-22",
+    "weight": -1.6299539804458618
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-24",
+    "weight": -0.60728293657302856
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "CoreComponent-6",
+    "weight": 2.3159186840057373
+   },
+   {
+    "src": "CoreComponent-8",
+    "dest": "myid1013-0",
+    "weight": -2.8304200172424316
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-16",
+    "weight": -3.0
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-17",
+    "weight": 0.84033679962158203
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-18",
+    "weight": -2.1366634368896484
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-20",
+    "weight": 2.87420654296875
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-22",
+    "weight": 0.38482922315597534
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-24",
+    "weight": -0.31099221110343933
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "CoreComponent-6",
+    "weight": 2.4366657733917236
+   },
+   {
+    "src": "CoreComponent-9",
+    "dest": "myid1013-0",
+    "weight": -1.3963972330093384
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-16",
+    "weight": -0.29467993974685669
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-17",
+    "weight": -0.90979188680648804
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-18",
+    "weight": -0.28253284096717834
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-20",
+    "weight": -1.9272397756576538
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-22",
+    "weight": 1.491712212562561
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-24",
+    "weight": -0.42772829532623291
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "CoreComponent-6",
+    "weight": -2.5368690490722656
+   },
+   {
+    "src": "Distance0-0",
+    "dest": "myid1013-0",
+    "weight": 0.47578075528144836
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-16",
+    "weight": 1.6801745891571045
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-17",
+    "weight": -0.26236516237258911
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-18",
+    "weight": -1.6467300653457642
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-20",
+    "weight": -1.0079771280288696
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-22",
+    "weight": -0.065567329525947571
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-24",
+    "weight": 0.95356398820877075
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "CoreComponent-6",
+    "weight": -1.8776648044586182
+   },
+   {
+    "src": "Distance1-0",
+    "dest": "myid1013-0",
+    "weight": 0.72292584180831909
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-16",
+    "weight": -0.69855272769927979
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-17",
+    "weight": 0.30058792233467102
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-18",
+    "weight": -1.9292216300964355
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-20",
+    "weight": 1.3224372863769531
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-22",
+    "weight": -1.918226957321167
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-24",
+    "weight": -2.2773001194000244
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "CoreComponent-6",
+    "weight": 1.174852728843689
+   },
+   {
+    "src": "Distance2-0",
+    "dest": "myid1013-0",
+    "weight": -2.5308961868286133
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-16",
+    "weight": 1.9157258272171021
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-17",
+    "weight": -1.2631765604019165
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-18",
+    "weight": 1.0033769607543945
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-20",
+    "weight": -1.1061769723892212
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-22",
+    "weight": -0.45802256464958191
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-24",
+    "weight": -0.70514547824859619
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "CoreComponent-6",
+    "weight": 2.6780705451965332
+   },
+   {
+    "src": "Distance3-0",
+    "dest": "myid1013-0",
+    "weight": 2.3408119678497314
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-16",
+    "weight": -0.95726120471954346
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-17",
+    "weight": -1.8795143365859985
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-18",
+    "weight": 1.2444491386413574
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-20",
+    "weight": 1.0513629913330078
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-22",
+    "weight": 2.5106258392333984
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-24",
+    "weight": 0.94391715526580811
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "CoreComponent-6",
+    "weight": -0.1632477343082428
+   },
+   {
+    "src": "myid1010-0",
+    "dest": "myid1013-0",
+    "weight": -3.0
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-16",
+    "weight": -1.1281586885452271
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-17",
+    "weight": 0.74970090389251709
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-18",
+    "weight": 2.5912787914276123
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-20",
+    "weight": -1.3918074369430542
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-22",
+    "weight": -1.5635473728179932
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-24",
+    "weight": 1.5347850322723389
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "CoreComponent-6",
+    "weight": -3.0
+   },
+   {
+    "src": "myid1011-0",
+    "dest": "myid1013-0",
+    "weight": -0.85861420631408691
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-16",
+    "weight": 0.30064418911933899
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-17",
+    "weight": 2.2725152969360352
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-18",
+    "weight": 1.1872456073760986
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-20",
+    "weight": -1.3726688623428345
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-22",
+    "weight": -0.59479910135269165
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-24",
+    "weight": 2.5218930244445801
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "CoreComponent-6",
+    "weight": 3.0
+   },
+   {
+    "src": "myid1013-0",
+    "dest": "myid1013-0",
+    "weight": 1.7051117420196533
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-16",
+    "weight": -0.91310465335845947
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-17",
+    "weight": 3.0
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-18",
+    "weight": 2.2715408802032471
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-20",
+    "weight": 0.47622156143188477
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-22",
+    "weight": -0.4149763286113739
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-24",
+    "weight": 0.43893739581108093
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "CoreComponent-6",
+    "weight": 1.7821965217590332
+   },
+   {
+    "src": "myid1017-0",
+    "dest": "myid1013-0",
+    "weight": -0.29550281167030334
+   }
+  ]
+ }
+}
