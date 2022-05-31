@@ -62,7 +62,7 @@
 
         // Maximum IR value accross sensors
 		var sensors = this.getRobot().getSensors();
-		var maxIr = 0
+		var maxIr = 0;
 		for (var i = 0; i < sensors.length; i++) {
 			if (/^Distance/.test(sensors[i].getLabel())) {
 				if (sensors[i].read() > maxIr)
@@ -73,8 +73,9 @@
 		this.currMaxIr = maxIr;
         var deltaIR = this.currMaxIr - this.prevMaxIr;
 		
-        if (deltaDistance*deltaIR>0 && deltaIR>0.05){
-            this.obstacle_avoid_reward -= 2;
+        if (deltaIR>0.05){
+			//console.log(i +": " + sensors[i].read());
+            this.obstacle_avoid_reward -= 1;
         }
         else{
             this.obstacle_avoid_reward += 1;
@@ -118,3 +119,4 @@
     },
 
 }
+
