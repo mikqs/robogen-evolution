@@ -1,5 +1,5 @@
 simulatorConfFile=myConf.txt
-referenceRobotFile = Phase1_Tune_Best_Sensors_Nay.txt
+referenceRobotFile = Phase1_Tune_Best_Sensors_Yehya.txt
 
 evolutionMode=full
 numGenerations=100
